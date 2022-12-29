@@ -1,0 +1,37 @@
+version : 2
+
+sources: 
+  - name: superx
+    description: raw content from superx database
+    database: superx_development
+    schema: public
+    tables: 
+      - name: bill_of_materials
+      - name: change_of_requests
+      - name: contract_notes
+      - name: deliveries
+      - name: delivery_items
+      - name: deparments
+      - name: employees
+      - name: event_logs
+      - name: forecasts
+      - name: inventories
+      - name: inventory_journal_entries
+      - name: machine_types
+      - name: machines
+      - name: materials
+      - name: monthly_employee_hours
+      - name: monthly_material_demands
+      - name: monthly_meterial_supplies
+      - name: order_items
+      - name: orders
+      - name: production_job_definitions
+      - name: production_orders
+      - name: purchase_contract_items
+      - name: purchase_contracts
+      - name: purchase_order_items
+      - name: purchase_orders
+      - name: retailers
+      - name: shipping_items
+      - name: shippings
+      - name: suppliers

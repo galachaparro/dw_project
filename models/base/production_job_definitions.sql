@@ -1,0 +1,1 @@
+SELECT * FROM {{source('superx','production_job_definitions')}}

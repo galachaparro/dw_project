@@ -1,0 +1,1 @@
+SELECT * FROM {{source('superx','delivery_items')}}

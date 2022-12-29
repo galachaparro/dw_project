@@ -1,0 +1,1 @@
+SELECT * FROM {{source('superx','purchase_order_items')}}
