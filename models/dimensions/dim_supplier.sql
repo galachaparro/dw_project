@@ -13,8 +13,10 @@ suppliers                   as (select * from {{ref('suppliers')}})
 select
     s.id                                        as id,
     s.name                                      as company_name,
-    s.address                                   as supplier_address
-    split_part(supplier_address, ' ', -1)       as country
+    s.address                                   as supplier_address,
+    split_part(s.address, ', ', 4)              as country,
+    split_part(s.address, ', ', 3)              as region
+
 
 from
  suppliers s
