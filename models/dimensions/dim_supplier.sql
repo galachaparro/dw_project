@@ -1,6 +1,6 @@
 {{-
     config(
-        alias = 'LKG_dim_supplier'
+        alias = 'group5_dim_supplier'
     )
 
 -}}
